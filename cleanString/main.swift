@@ -124,7 +124,7 @@ func cleanContentOfFile(file: String) -> String {
         }
     }
 
-    return cleanedfileLines.joined(separator: "\n")
+    return cleanedfileLines.joined(separator: "\n") + "\n"
 }
 
 func shouldAddBlock(_ stringLine: String) -> Bool {
